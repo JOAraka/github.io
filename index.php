@@ -10,5 +10,13 @@
             </form>
             </body>
          </html> "; 
-echo 
+if ($_POST ["submit"]= "submit")
+{
+echo " Welcome to php. ";echo $_POST ["names"];
+}
+else
+{
+  echo
+    "Hello world":
+}
   ?>
